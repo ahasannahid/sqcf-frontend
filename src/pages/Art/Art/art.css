@@ -1,0 +1,37 @@
+.image{
+    position: relative;
+    overflow: hidden;
+}
+.image:hover .img-content{
+    cursor: pointer;
+    top: 0;
+    visibility: visible;
+}
+/* .img-content{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    transition: .5s linear;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.img-content{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    transition: .5s linear;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
